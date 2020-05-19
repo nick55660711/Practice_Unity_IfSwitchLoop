@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - WebGLNativeInputField
     - camera
     - practice1_if
     - practice2
@@ -17,7 +18,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
@@ -65,13 +65,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 12300}
-    - Class: 114
       Script: {instanceID: 12588}
     - Class: 114
       Script: {instanceID: 12936}
     - Class: 114
       Script: {instanceID: 12966}
+    - Class: 114
+      Script: {instanceID: 13910}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -533,6 +533,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a66536577d0b6f9e5f7f8c9f8b8d791e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WebGLNativeInputField
   platform: 20
   scenePathNames:
   - Assets/class5_practice_14.unity

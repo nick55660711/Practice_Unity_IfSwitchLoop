@@ -5,7 +5,7 @@ public class practice1_if : MonoBehaviour
 
 
     private float HP;
-    public float HP_ { get => HP; set => HP = value; }
+    public float HP_ { get => slider.value ; set => HP = value; }
     public Slider slider;
 
     public Text Result;   
@@ -16,7 +16,7 @@ public class practice1_if : MonoBehaviour
 
     void Update()
     {
-    HP_ = slider.value;
+  
         if (HP_ <= 30)
         {
             Result.text = "血量：危險";
